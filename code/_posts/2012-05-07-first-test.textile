@@ -1,0 +1,9 @@
+---
+layout: post
+title: First Test
+thumbnail: cat.jpg
+---
+
+p(meta). 5 May 2012
+
+This is the first post of the code section.

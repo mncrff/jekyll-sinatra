@@ -1,0 +1,8 @@
+---
+layout: post
+title: Art Test
+---
+
+p(meta). 8 May 2012
+
+This is the first post of the ART section.

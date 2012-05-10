@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
+   <title>First Test</title>
    <meta name="author" content="Tom Preston-Werner" />
    <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
 
@@ -33,17 +33,65 @@
 
    <div id="wrapper">
 
-      {% include navigation.html %}
+      <nav>
+	<ul>
+		<li><a href="/art">Art &amp; Design</a></li>
+		<li><a href="/code">Code</a></li>
+	</ul>
+</nav>
 
       <div id ="main" class="center">
 
-      {{ content }}
+      <h2> First Test </h2>
+
+<div id="post">
+<p class="meta">5 May 2012</p>
+<p>This is the first post of the code section.</p>
+</div>
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>08 May 2012</span> &raquo; <a href="/art/2012/05/08/art-test.html">Art Test</a></li>
+    
+  </ul>
+</div>
 
       </div>
 
    </div>
 
-  {% include footer.html %}
+  <footer>
+	<div class="center">
+		<div class="contact">
+		  <h3>
+		  	Drop me a line.
+		  </h3>
+		</div>
+
+        <div class="about">
+        	<h3> 
+        		About me.
+        	</h3>
+        	<p>I am a front-end web developer who works magic in HTML5, CSS, and Javascript. However, I do rise to the challenge and develop sites using PHP and Ruby on Rails.</p>
+			<p>I live with 2 cats and 2 salmanders in a miniature jungle. I am an amature botantist whose favorite past-time is the conservation of species through horticulture.</p>
+		</div>
+	</div>
+
+	<div class="sub_nav">
+		<div class="center">
+			<ul class="legal">
+				<li>Built with Jekyll</li>
+				<li>&copy;Copyright 2012 &nbsp; Alycia Moncrieff</li>
+			</ul>
+			<ul>
+				<li><a href="/art">Art &amp; Design</a></li>
+				<li><a href="/code">Code</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
 
 <!-- Google Analytics -->
 <!-- Google Analytics end -->
